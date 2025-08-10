@@ -6,7 +6,7 @@ This Power BI dashboard was developed to track open orders, monitor lead time, a
 ## 🏆 Business Problem
 The Program Office lacked a centralized, visual way to monitor:
 - Aging orders (especially those over 30 days)
-- Delivery performance by vendor
+- Delivery performance by supplier
 - Impact of delayed orders on facilities
 
 ## 🛠 Tools & Techniques

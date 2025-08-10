@@ -1,4 +1,4 @@
-# 📊 Open Orders Report – Medline
+# 📊 Open Orders Report – Medical Distributor
 
 ## 📌 Overview
 This Power BI dashboard was developed to track open orders, monitor lead time, and assess vendor performance for medical supply distribution.

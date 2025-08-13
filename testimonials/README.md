@@ -6,7 +6,7 @@ This section includes feedback from teammates and managers acknowledging my cont
 
 **Carlos Polanco (Developer):**  
 > *"Curtis always takes initiative to enhance the user experience of our clients and meaningfully contributes to the team overall success by implementing data collaboration and report enhancements. Curtis constantly shows he is a dependable team player and ready for the task at hand."*  
-📎 `carlos appreciation 12.10.24.png`
+📎 [Carlos appreciation](./img/carlos%20appreciation%2012.10.24.png)
 
 **Joshua Ellis (Manager):**  
 > *"You are literally amazing."*  

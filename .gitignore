@@ -2,7 +2,13 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Thumbnails
 ._*
+
+# External volume metadata
 .Spotlight-V100
 .Trashes
+
+# Finder metadata
 Icon?

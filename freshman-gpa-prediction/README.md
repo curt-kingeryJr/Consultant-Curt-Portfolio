@@ -1,53 +1,14 @@
-# 🎓 Predicting First‑Year GPA with Linear Regression (R + tidyverse)
+# Predictive Analytics: Applying Linear Regression
 
-## Why this matters
-Universities want to spot risk early and target support. This project builds a **predictive model** of **first‑year GPA** from pre‑admission and academic variables (e.g., HS GPA, SAT, sex). It demonstrates **machine learning with linear regression** using a transparent, business‑friendly workflow.
+## Overview  
+This project demonstrates my ability to use **predictive analytics and statistical modeling** to solve a real-world business problem. I applied **linear regression** using R’s `tidyverse` and related packages to identify key factors influencing a target outcome, quantify their impact, and predict future performance.  
 
-## What this shows (skills)
-- Predictive modeling (linear regression treated as ML)
-- Honest evaluation (train/test split + 5‑fold CV)
-- Model diagnostics (multicollinearity, residual checks)
-- Executive‑ready visuals (actual vs. predicted)
+## Key Skills Demonstrated
+- **Data Cleaning & Preparation** – Importing raw data, handling missing values, transforming variables for analysis.  
+- **Exploratory Data Analysis (EDA)** – Visualizing relationships, identifying patterns, and summarizing statistical trends.  
+- **Predictive Modeling** – Applying and interpreting multiple linear regression to quantify relationships between variables and predict outcomes.  
+- **Model Evaluation** – Assessing model fit, checking assumptions, and validating performance.  
+- **Business Insight Generation** – Translating statistical results into actionable recommendations.  
 
-## Data
-- `school.csv` (not included here): one row per student  
-  **Key fields:**  
-  - `fy_gpa` *(target)* — first‑year GPA  
-  - `hs_gpa` — high‑school GPA  
-  - `sat_v`, `sat_m` — SAT Verbal/Math (or `sat_sum`)  
-  - `sex` — categorical  
-  - + optional profile fields
-
-> If your dataset uses different column names, update the `select()` and formulas in the script.
-
-## Method (plain English)
-1. Clean and type‑check inputs (drop NAs, factor `sex`)
-2. Split into **train (80%)** and **test (20%)**
-3. Fit models:  
-   - **Baseline:** `fy_gpa ~ hs_gpa`  
-   - **Full:** `fy_gpa ~ hs_gpa + sat_v + sat_m + sex`  
-   - *(Optional)* Interaction: `hs_gpa * sex`
-4. Check **VIF** to avoid redundancy (SAT sum vs. components)
-5. 5‑fold cross‑validate on training set; report mean RMSE/R²
-6. Score on test set; plot **Actual vs Predicted**
-7. Summarize results in business terms
-
-## Results (example)
-- **Full model** improves accuracy over the HS‑only baseline
-- Visuals show tight clustering around the 45° line (good calibration)
-- Coefficients are interpretable and align with domain intuition
-
-## Files
-- `gpa_linear_regression.R` — full analysis (tidyverse)
-- `outputs/` *(optional)* — predictions and metrics (CSV/PNG)
-
-## How to run
-```r
-install.packages(c("tidyverse","rsample","broom","yardstick","GGally","car","modelr","glue"))
-source("gpa_linear_regression.R")
-```
-
-## Talking points for stakeholders
-- **Actionable:** model prioritizes early signals (HS GPA + SAT) to guide advising
-- **Transparent:** coefficients are interpretable (why a prediction is high/low)
-- **Practical:** can be refreshed as new cohorts arrive; extendable to classification (retention)
+## Why It’s Relevant  
+This project showcases my ability to move from raw data to a statistically valid predictive model while maintaining a focus on **practical, decision-ready insights**. It reflects the type of analysis I would bring to any role requiring **data-driven forecasting, performance improvement, or operational planning**.

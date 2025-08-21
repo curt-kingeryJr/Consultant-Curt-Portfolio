@@ -46,11 +46,15 @@ high claim costs** and uncover actionable business insights.
 
 ------------------------------------------------------------------------
 
-## 📸 Screenshots
+## 📊 Screenshots
 
-(Add images of your charts and tables here) - Example:
-`pareto_chart.png` - Example: `root_cause_table.png`
+Here are example outputs from the analysis:
 
+### Clustered Column Chart
+![Clustered Column Chart](img/clustered_column.png)
+
+### Scatterplot
+![Scatterplot](img/scatterplot.png)
 ------------------------------------------------------------------------
 
 ## 🚀 Key Insights

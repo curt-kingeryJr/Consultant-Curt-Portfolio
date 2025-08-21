@@ -1,35 +1,87 @@
-# Insurance Claims Analysis
+# 📊 Insurance Claims Analysis
 
-## Project Overview
-This project analyzes an **insurance dataset** to identify the key drivers of claims cost and customer characteristics. The focus of the analysis is on applying the **Pareto Principle (80/20 rule)** and **root cause analysis** techniques. Instead of exploring every possible detail, the approach centers on identifying the small number of factors that drive the majority of outcomes, enabling business stakeholders to act on the most impactful areas.
+This project demonstrates how Pareto Analysis and Root Cause Analysis
+can be applied to insurance claims data to identify the **key drivers of
+high claim costs** and uncover actionable business insights.
 
-## Analytical Approach
-My process followed a clear and structured workflow:
-1. **Data Familiarization** – Reviewed the dataset to understand the fields available (e.g., age, gender, BMI, smoking status, number of children, region, and charges).
-2. **Exploratory Analysis** – Conducted descriptive statistics and created breakdowns by category to surface patterns.
-3. **Pareto-Driven Insights** – Identified the groups and variables that disproportionately explain the variance in insurance charges:
-   - Smoking status was found to be the largest single driver of cost differences.
-   - BMI distribution highlighted where outliers concentrated a significant portion of higher charges.
-   - Certain age brackets and family size categories accounted for a larger share of claim costs.
-4. **Root Cause Lens** – Rather than treating the dataset as a collection of variables, I worked backwards from the **outcome (charges)** to uncover which factors were most predictive and explainable.
+------------------------------------------------------------------------
 
-## Key Business Insights
-- **Disproportionate Drivers of Cost**: A small number of factors (smoking and high BMI) explain a majority of the high insurance charges. This aligns with the Pareto view that “a few causes account for most effects.”
-- **Actionable Segmentation**: By segmenting the population based on these drivers, insurers could target interventions (wellness programs, preventative health outreach) more efficiently.
-- **Business Value**: This approach ensures that organizations don’t dilute efforts across all variables, but instead focus resources where they will yield the highest impact.
+## 📝 Project Overview
 
-## Business Value of My Approach
-As a Business Analyst, my analysis style is less about running complex models and more about **providing clarity for decision-making**:
-- **Efficiency**: Stakeholders quickly see which levers matter most.
-- **Prioritization**: The Pareto/root-cause method allows leaders to direct resources toward the few critical drivers of cost.
-- **Accessibility**: Findings are presented in a straightforward way, bridging technical analysis and business strategy.
+-   Analyze insurance claim records to determine which categories drive
+    the majority of costs.
+-   Apply the **Pareto Principle (80/20 rule)** to isolate top drivers.
+-   Conduct root cause investigation to uncover patterns behind
+    high-cost claims.
 
-## Files
-- `insurance.xlsx` – The dataset used for analysis
-- `README.md` – This project overview and interpretation
+------------------------------------------------------------------------
 
-## How to Use
-Recruiters and hiring managers can use this project to see how I:
-- Translate raw data into prioritized, business-relevant insights.
-- Apply structured analysis rooted in the Pareto Principle and root cause thinking.
-- Deliver value through clarity, prioritization, and actionable recommendations.
+## 🎯 Objectives
+
+-   Identify which claim types and regions account for the largest
+    proportion of costs.
+-   Provide **data-driven insights** for prioritizing risk management
+    and cost containment strategies.
+-   Show how **business intelligence techniques** (Pareto + Root Cause)
+    can guide executive decision-making.
+
+------------------------------------------------------------------------
+
+## 🛠️ Methods
+
+-   **Pareto Analysis**: Highlight the small percentage of categories
+    responsible for most of the costs.
+-   **Root Cause Analysis**: Investigate details behind high-cost claims
+    for targeted insights.
+-   **Data Visualization**: Communicate findings clearly through charts
+    and tables.
+
+------------------------------------------------------------------------
+
+## 📂 Files in This Project
+
+-   `Insurance_Claims.xlsx` → raw data and initial exploration.
+-   `Insurance_Claims_Pareto.xlsx` → Pareto analysis calculations.
+-   `README.md` → project explanation (this file).
+
+------------------------------------------------------------------------
+
+## 📸 Screenshots
+
+(Add images of your charts and tables here) - Example:
+`pareto_chart.png` - Example: `root_cause_table.png`
+
+------------------------------------------------------------------------
+
+## 🚀 Key Insights
+
+-   A few **categories of claims** drive the majority of insurance
+    costs.
+-   Specific **regions and claim types** show recurring high-cost
+    patterns.
+-   Applying the **80/20 rule** highlights priority areas for reducing
+    expenses.
+
+------------------------------------------------------------------------
+
+## 📈 Business Impact
+
+By focusing on the **vital few claim categories**, insurers can: -
+Improve **profitability** by addressing key cost drivers. - Enhance
+**operational efficiency** by targeting high-risk areas. - Support
+**strategic planning** with data-backed insights.
+
+------------------------------------------------------------------------
+
+## 🧑‍💼 Audience
+
+This project is tailored for: - **Executives** seeking actionable
+insights on cost control. - **Analysts** learning how to apply
+Pareto/Root Cause methods. - **Decision-makers** evaluating how data can
+guide strategy.
+
+------------------------------------------------------------------------
+
+## 📎 Portfolio Placement
+
+Suggested folder name: **`Insurance-Claims-Analysis`**

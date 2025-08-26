@@ -65,4 +65,4 @@ A copy of my resume is available in the [`/resume`](./resume/) folder.
 ## 📫 Let's Connect
 
 -   [LinkedIn](https://linkedin.com/in/curtis-kingery)\
--   [Email](mailto:you@example.com)
+-   [Email](mailto:curtkingery@gmail.com)
